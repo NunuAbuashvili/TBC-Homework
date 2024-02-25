@@ -5,7 +5,7 @@ user_name = input("Enter your name: ")
 user_surname = input("Enter your surname: ")
 
 # Ask the user for their age
-user_age = input("Enter your age: ")
+user_age = int(input("Enter your age: "))
 
 # Print a greeting message
-print("Hello, " + user_name + " " + user_surname + ", you are " + user_age + " years old.")
+print("Hello, " + user_name + " " + user_surname + ", you are " + str(user_age) + " years old.")
