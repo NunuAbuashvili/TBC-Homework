@@ -11,7 +11,7 @@ current_year = 2024
 user_age = current_year - user_birth_year
 
 # Print a greeting message
-if user_age < 0:
+if user_birth_year > current_year:
     print("Please, enter your real birth year.")
 else:
     print("Hello,", user_name, ", you are", user_age, "years old.")

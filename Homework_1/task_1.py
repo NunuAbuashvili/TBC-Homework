@@ -10,5 +10,6 @@ user_age = int(input("Enter your age: "))
 # Print a greeting message
 if user_age < 0:
     print("Invalid number! Please, enter your real age.")
-else: 
-    print("Hello,", user_name, user_surname, ", you are", user_age, "years old.")
+else:
+    print("Hello", user_name, str(user_surname) + ", you are", user_age, "years old.")
+   
