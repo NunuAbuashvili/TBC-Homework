@@ -23,16 +23,19 @@ btc_price_today = btc.get_latest_price('USD')
 # Get today's date
 today = datetime.date.today()
 
+# Get the current year
+current_year = today.year
+
 # Calculate profit or loss
 profit_loss = btc_price_today - btc_purchase_price
 
-# Print the purchase price and the current price of the bitcoin
-print("BTC price on", purchase_date, ", the day you bought the bitcoin, was", btc_purchase_price, ", and the BTC price today is", btc_price_today)
-
 # Print the result (profit, loss or the same)
-if profit_loss > 0:
-    print("Congratulations! As of", today, ", you made a profit of", profit_loss,  "USD")
-elif profit_loss < 0:
-    print("Sorry! As of", today, ", you suffered a loss of", abs(profit_loss))
+if btc_purchase_year > current_year:
+    print("Please, enter the true year you bought the bitcoin, try again!")
 else:
-    print("As of", today, ", you neither made a profit nor suffered a loss.")
+    if profit_loss > 0:
+        print("Congratulations! As of", today, ", you made a profit of", profit_loss,  "USD")
+    elif profit_loss < 0:
+        print("Sorry! As of", today, ", you suffered a loss of", abs(profit_loss))
+    else:
+        print("As of", today, ", you neither made a profit nor suffered a loss.")
