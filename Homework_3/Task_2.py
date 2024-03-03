@@ -18,5 +18,12 @@ weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", 
 # Get the day of the week the person was born on
 birth_weekday = weekdays[birth_date.weekday()]
 
+# Get the current year
+current_date = datetime.datetime.now()
+current_year = current_date.year
+
 # Print the result
-print("You were born on", birth_weekday + ".")
+if birth_year > current_year:
+    print("Please, enter your true birth year!")
+else:
+    print("You were born on", birth_weekday + ".")
