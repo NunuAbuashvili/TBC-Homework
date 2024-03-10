@@ -13,14 +13,14 @@ else:
         print(f"{num} -", end=" ")
         # Initialize the number of divisors to 0
         divisor_count = 0
+        
         for divisor in range(1, n + 1):
             if num % divisor == 0:
+                print(divisor, end=" ")
                 # Update the number of divisors
                 divisor_count += 1
-                # If the number of divisors exceeds 3
-                if divisor_count > 3:
-                    continue
-                # Print the divisors
-                else:
-                    print(divisor, end=" ")
+                # Print maximum three divisors
+                if divisor_count > 2:
+                    break
+                    
         print('')
