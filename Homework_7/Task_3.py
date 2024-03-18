@@ -11,12 +11,15 @@ while num < 0 or num >= 10000:
 sum_digits = 0
 num_reversed = 0
 
+print(f"Reversed number of {num} is:", end=" ")
+
 while num != 0:
     # Extract the last digit
     digit = num % 10
     
-    # Add the last digit to the reversed number
-    num_reversed = num_reversed * 10 + digit
+    # Add the last digit to the reversed number and print the result
+    num_reversed = digit
+    print(num_reversed, end="")
     
     # Add the last digit to the sum of digits
     sum_digits += digit
@@ -24,5 +27,4 @@ while num != 0:
     # Remove the last digit from the number
     num = num // 10
     
-print(f"Reversed number is: {num_reversed}")
-print(f"Sum of digits is: {sum_digits}")
+print(f"\nSum of digits is: {sum_digits}")
