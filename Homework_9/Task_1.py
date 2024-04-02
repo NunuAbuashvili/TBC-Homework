@@ -8,7 +8,7 @@ user_string = ''
 
 # Iterate through each character in the user input, and if the character is alphabetic, add it to the user_string
 for c in user_input:
-    if c.isalpha() == True:
+    if c.isalpha():
         user_string += c
 
 # Check if the cleaned string is a palindrome and print a corresponding message
