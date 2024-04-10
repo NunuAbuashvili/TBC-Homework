@@ -6,8 +6,8 @@ def merge_sorted_arrays(arr1: list, arr2: list) -> list:
     # Initialize sorted_array with arr2
     sorted_array = arr2
     
-    # If arr2 is empty, return arr1 since it's already sorted
-    if len(arr2) == 0:
+    # If arr2 is empty or arr1 == arr2, return arr1 since it's already sorted
+    if len(arr2) == 0 or arr1 == arr2:
         return arr1
     
     # Iterate through each element in arr1 
