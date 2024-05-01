@@ -1,0 +1,7 @@
+Sam_Cooke,watermelon,8,2.17
+Jim_Croce,kiwi,20,2.00
+Otis_Redding,mango,15,2.50
+Van_Morrison,grapefruit,7,1.75
+Lou_Reed,pineapple,12,3.00
+Van_Morrison,strawberry,14,2.25
+Eric_Burdon,apple,20,2.17

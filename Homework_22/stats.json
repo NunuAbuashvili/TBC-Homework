@@ -1,0 +1,14 @@
+{
+    "Users, who made the biggest single purchase": [
+        "Jim_Croce",
+        "Eric_Burdon"
+    ],
+    "Users, who made the largest purchase in total": [
+        "Eric_Burdon"
+    ],
+    "Average cost of products purchased": 18.35,
+    "Average amount of products purchased": 9.21,
+    "Product with the largest number of sales": [
+        "apple"
+    ]
+}
