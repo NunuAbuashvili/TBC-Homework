@@ -1,0 +1,14 @@
+Tim_Hardin,apple,5,1.25
+Paul_McCartney,banana,10,0.75
+Sam_Cooke,orange,3,1.50
+Sam_Cooke,watermelon,8,2.17
+Jim_Croce,kiwi,20,2.00
+Nina_Simone,pear,8,1.20
+Otis_Redding,mango,15,2.50
+Van_Morrison,grapefruit,7,1.75
+Van_Morrison,banana,3,0.75
+Lou_Reed,pineapple,12,3.00
+Van_Morrison,strawberry,14,2.25
+Eric_Burdon,watermelon,2,2.17
+Eric_Burdon,apple,20,2.17
+Jim_Croce,strawberry,2,2.25
